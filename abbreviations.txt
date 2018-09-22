@@ -1,0 +1,70 @@
+One,1
+Two,2
+Three,3
+Four,4
+Five,5
+Six,6
+Seven,7
+Eight,8
+Nine,9
+Tomorrow,2moro 
+Tonight,2nte
+As Early as Possible,AEAP
+As Late as Possible,ALAP
+As Soon as Possible,ASAP
+Before You Know it,B4YKI
+Between Me and You,BM&Y
+Be right Back,BRB
+Be right There,BRT
+Be that as it May,BTAM
+Sleepy,C-P
+Cannot talk now,CTN
+See You Soon,CUS
+Complete Waste of Time,CWOT
+See You Tomorrow,CYT
+Download,D/L
+Excuse Me?,EM?
+End of Day,EOD
+Face to Face,F2F
+Fingers Crossed,FC
+Friend of a Friend,FOAF
+Good,GD
+Great,GR8 
+In Real Life,IRL
+Just Kidding,J/K 
+Just Checking,JC
+Just to Let You Know,JTLYK
+Later,L8R 
+Hello,LO
+May the Force be with You,MTFBWY
+Mind Your Own Business,MYOB
+In a While,N-A-Y-L
+No Comment,NC
+Any,NE
+Anyone,NE1
+Not in my Backyard,NIMBY
+No Problem,NP
+Not that it Matters,NTIM
+Never Mind,NVM
+On a totally Unrelated Subject,OATUS
+On My Way,OMW
+Out to Lunch,OTL
+On the Phone,OTP
+People,PPL
+Probably,PROB
+Right Now,RN
+Are You,RU
+Still in the Dark,SITD
+Sounds like a Plan,SLAP
+Send Me an Instant Message,SMIM
+Sorry,SRY
+Thanks,THX
+Too Much Information,TMI
+You,U
+Upload,U/L
+With,W/
+Without,W/O
+Wait,W8
+Welcome Back,WB
+Wish You Were Here,WYWH
+Your,YR
