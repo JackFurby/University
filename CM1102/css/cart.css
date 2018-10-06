@@ -1,0 +1,290 @@
+/*Set basic page css*/
+html, body {
+	height: 100%;
+	position: absolute;
+	top: 0;
+  right: 0;
+  left: 0;
+	margin: 0 auto;
+	font-size:15px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	background-color: #E0E0E0;
+	/*css for page background*/
+  background: #1F57E1; /*unsupported browser*/
+  background: -webkit-linear-gradient(#1F57E1 0%, #89A9F6 80%, #7FA828 200px); /*Safari*/
+  background: -o-linear-gradient(#1F57E1, #89A9F6, #7FA828 20%)); /*Opera*/
+  background: -moz-linear-gradient(#1F57E1, #89A9F6, #7FA828 20%)); /*Firefox*/
+  background: linear-gradient(#1F57E1, #89A9F6, #7FA828 20%)); /*Standard syntax*/
+	/*
+	Title: CSS3 Gradients
+	Author: w3schools
+	Availbility: https://www.w3schools.com/csS/css3_gradients.asp
+	*/
+}
+/*Css for body of page*/
+body{
+	height: auto;
+	padding-bottom: 20px;
+  min-height: 100%;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+/*page title*/
+#title {
+  font-size:15px;
+	cursor: pointer;
+}
+/*css for page menu*/
+#taskBar {
+	list-style-type: none;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+  bottom: 0;
+	margin: 0;
+	padding: 0;
+	z-index: 5;
+	background-color: #245EDD;
+	}
+li {
+	float: left;
+}
+#menuBtn a, #cart a {
+	display: block;
+	color: #FCFFF4;
+	text-align: left;
+	padding-right: 1em;
+	padding-left: 0.4em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	background-color: #288427;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#cart {
+	float: right;
+}
+#taskBar #cart a {
+	padding: 1em;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background-color: #188AE3;
+}
+/*css for product categorys*/
+#siteWindow, #title {
+	background-color: #F9FAFC;
+	border:0.3em solid #3E93FF;
+	border-top: 0.1em solid #3E93FF;
+	border-radius: 7px;
+	margin: auto;
+  display:inline-block;
+	padding: 1em;
+	margin: 1em;
+	margin-top: 1em;
+	position: relative;
+	z-index: 4;
+}
+#startMenuTitle {
+	font-size:20px;
+}
+#siteWindow {
+	width: 85%;
+	padding-top: 4em;
+	margin-bottom: 4em;
+	text-align: left;
+}
+/*css for individual products*/
+#title {
+	margin-top: 4em;
+	padding-top: 4em;
+}
+#title h1 {
+	font-weight: bold;
+	font-size:50px;
+}
+/*css for div control on page*/
+.winControl {
+	background-color: #3E93FF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 1em;
+}
+.winControl ul {
+	list-style-type: none;
+}
+.winControl ul li {
+	display:inline-block;
+	float: right;
+}
+.windowTitle {
+	color: white;
+	position: absolute;
+	left:0;
+	top:-30%;
+	font-weight: bold;
+	font-size:20px;
+}
+.winControl ul li a {
+	color: #FCFFF4;
+	padding:0.5em;
+	padding-left:1em;
+	padding-right: 1em;
+	text-decoration: none;
+	background-color: #DA4F2B;
+	border-radius: 5px;
+}
+#XDead a {
+	background-color: grey;
+}
+#productCatNav {
+	position: relative;
+	float:left;
+	list-style-type: none;
+	overflow: hidden;
+	width:80%;
+}
+#productCatNav li {
+	float: left;
+	border:0.2em solid #CFCFC7;
+	border-radius: 7px;
+	margin:5px;
+}
+#productCatNav li a {
+	color: black;
+	display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#productCatNav li:hover {
+	background-color: #CFCFC7;
+	transition: all 0.3s linear;
+}
+#checkout {
+  text-decoration: none;
+  background-color: #616161;
+	border: none;
+	color: white;
+	padding: 0.5em;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-top: 500px;
+	font-size: 20px;
+	border-radius: 7px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+#Checkout:hover {
+	transition: all 0.2s linear;
+	background-color: #EEEEEE;
+	color: black;
+}
+#cartCont {
+	margin-bottom: 20px;
+}
+/*layout for products in cart*/
+#productCont {
+	background-color: #C2DCF9;
+	margin-bottom:5px;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+#productCont div {
+	display: inline-block;
+	vertical-align:middle;
+}
+#itemImg {
+	margin-left:10px;
+}
+#itemInfo p, #itemInfo h4 {
+	display: inline-block;
+}
+#itemInfo {
+	width:85%;
+	margin-left:10px;
+}
+#itemName {
+	width: 15%;
+	min-width: 80px;
+	margin-left:10px;
+}
+#itemPrice {
+	width: 10%;
+	min-width: 60px;
+	margin-left:10px;
+}
+#itemID {
+	width: 15%;
+	min-width: 50px;
+	margin-left:10px;
+}
+#itemQuantity {
+	width: 15%;
+	min-width: 60px;
+	margin-left:10px;
+}
+#itemTotal {
+	width: 15%;
+	min-width: 100px;
+	margin-left:10px;
+}
+#itemControl {
+	display:inline;
+	min-width: 200px;
+	margin-bottom: 15px;
+}
+/*editing product in cart controls*/
+#itemUp, #itemDown, #itemRemove {
+	color: #FCFFF4;
+	padding:0.5em;
+	padding-left:1em;
+	padding-right: 1em;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#itemRemove {
+	background-color: #DA4F2B;
+}
+#itemDown, #itemUp {
+	background-color: #2477EE;
+}
+#itemDown {
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+
+	/*text?, C. (2011). Can you use CSS to mirror/flip text?. [online] Stackoverflow.com. Available at: http://stackoverflow.com/questions/5406368/can-you-use-css-to-mirror-flip-text [Accessed 2 Apr. 2017].*/
+}
+.cartMsg {
+	font-size: 20px;
+	border:0.1em solid #CFCFC7;
+	border-radius: 7px;
+	text-align: center;
+	margin: 0.2em;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	display: none;
+	padding: 0 1em;
+}
+/*cart side btn*/
+#cartSideBtn {
+	position: fixed;
+	right:0;
+	top: 4em;
+	padding:1em;
+	background-color: #F9FAFC;
+	border:0.3em solid #3E93FF;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-right:0;
+	z-index: 5;
+	cursor: pointer;
+}

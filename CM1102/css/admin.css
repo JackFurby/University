@@ -1,0 +1,61 @@
+/*Set basic page css*/
+html, body {
+	height: 100%;
+	position: absolute;
+	top: 0;
+  right: 0;
+  left: 0;
+	margin: 0 auto;
+	font-size:15px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	background-color: #E0E0E0;
+}
+/*Css for body of page*/
+body{
+	height: auto;
+	padding-bottom: 20px;
+  min-height: 100%;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	/*css for page background*/
+  background: #1F57E1; /*unsupported browser*/
+  background: -webkit-linear-gradient(#1F57E1 0%, #89A9F6 80%, #7FA828 200px); /*Safari*/
+  background: -o-linear-gradient(#1F57E1, #89A9F6, #7FA828 20%)); /*Opera*/
+  background: -moz-linear-gradient(#1F57E1, #89A9F6, #7FA828 20%)); /*Firefox*/
+  background: linear-gradient(#1F57E1, #89A9F6, #7FA828 20%)); /*Standard syntax*/
+/*
+Title: CSS3 Gradients
+Author: w3schools
+Availbility: https://www.w3schools.com/csS/css3_gradients.asp
+*/
+}
+#adminArea {
+	background-color: white;
+	width:80%;
+	height:100%;
+	margin: auto;
+}
+input[type="submit"], input[type="reset"]{
+	background-color: #616161;
+	border: none;
+	color: white;
+	padding: 0.5em;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-top: 5px;
+	font-size: 15px;
+	border-radius: 7px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+textarea:hover, input[type="submit"]:hover, input[type="reset"]:hover{
+	transition: all 0.2s linear;
+	background-color: #EEEEEE;
+	color: black;
+}
+#itemIdIn, #itemCatIn, #itemNameIn, #itemDescIn, #itemPriceIn, #itemImgIn {
+	display :none;
+}
+#itemIdH3, #itemCatH3, #itemNameH3, #itemDescH3, #itemPriceH3, #itemImgH3 {
+	display :none;
+}
