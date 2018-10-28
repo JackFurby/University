@@ -1,0 +1,1 @@
+In CM1102 I made an online shop with the ability for customers to browse the available goods, view product pages, add to a basket along with view the basket before finally following through with the payment (up until contacting the bank).
