@@ -1,3 +1,5 @@
+In this coursework I analysed 2 sorting algorithms (counting sort and insertion sort) by creating a test bed before analysing my results. 
+
 To compile the source code navigate to the folder holding the file from a terminal and execute the following command:
 javac *.java
 
