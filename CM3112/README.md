@@ -1,0 +1,1 @@
+This coursework involved completing an A* solver for the game rushhour and add an admissible heuristic. The heuristic here is based on blocking cars. From the target car, the number of cars blocking the path to the exit are counted. In addition to this, the minimum cost to move them cars out of the way is also added on to the total cost.
